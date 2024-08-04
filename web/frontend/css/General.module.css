@@ -1,0 +1,89 @@
+.statsoneparent {
+  border: 1px solid black;
+  width: 80dvw;
+  background-color: white;
+  height: 176px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.tablecontainer {
+  display: table;
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 172px;
+}
+
+.tablerow {
+  display: table-row;
+}
+
+.tablecell {
+  display: table-cell;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.tablerow:first-child .tablecell {
+  font-weight: 700;
+  font-size: 28px;
+  background-color: white;
+  padding-top: 25px;
+}
+
+.tablerow:nth-child(2) .tablecell {
+  background-color: #ffffff;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.tablecell {
+  border-right: none;
+}
+
+.tablerow .tablecell:last-child {
+  border-right: none;
+}
+
+.tablerow:last-child .tablecell {
+  border-bottom: none;
+}
+.table-container,
+.table-row,
+.table-cell {
+  border: none;
+}
+/* Stats 2 chanegs*/
+.tablecontainer2 {
+  display: table;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 172px;
+  table-layout: fixed;
+}
+.tablerow2:first-child .tablecell {
+  font-weight: 100;
+  font-size: 29px;
+  background-color: white;
+  padding-top: 25px;
+}
+
+.tablerow2:nth-child(2) .tablecell {
+  background-color: #ffffff;
+  font-size: 17px;
+  font-weight: 200;
+}
