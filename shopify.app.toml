@@ -3,7 +3,7 @@
 client_id = "9129bd9e891df38161785d849ab7c496"
 name = "scribe-app"
 handle = "scribe-app"
-application_url = "https://competent-major-steven-newton.trycloudflare.com"
+application_url = "https://demonstrated-designation-occurs-columbus.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://competent-major-steven-newton.trycloudflare.com/auth/callback",
-  "https://competent-major-steven-newton.trycloudflare.com/auth/shopify/callback",
-  "https://competent-major-steven-newton.trycloudflare.com/api/auth/callback"
+  "https://demonstrated-designation-occurs-columbus.trycloudflare.com/auth/callback",
+  "https://demonstrated-designation-occurs-columbus.trycloudflare.com/auth/shopify/callback",
+  "https://demonstrated-designation-occurs-columbus.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
