@@ -6,7 +6,7 @@ export default function Dashboard() {
   return (
     <>
       <div className={styles.main}>
-        <h1 className={styles.Dashboard}>Armagahan</h1>
+        <h1 className={styles.Dashboard}>Dashboard</h1>
         <div className={styles.calenderparent}>
           <div className={styles.calender}>Date</div>
           <button className={styles.calenderbutton}>Weekly</button>
