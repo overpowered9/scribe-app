@@ -66,7 +66,6 @@ body {
 }
 /* Stats 2 chanegs*/
 .tablecontainer2 {
-  display: table;
   width: 80%;
   margin: 20px auto;
   border-radius: 15px;
@@ -75,9 +74,13 @@ body {
   height: 172px;
   table-layout: fixed;
 }
+.table-row2 {
+  width: 1200px;
+  background-color: black;
+}
 .tablerow2:first-child .tablecell {
-  font-weight: 100;
-  font-size: 29px;
+  font-weight: 200;
+  font-size: 20px;
   background-color: white;
   padding-top: 25px;
 }
