@@ -1,3 +1,6 @@
+body {
+  background-color: #bddffa;
+}
 .statsoneparent {
   border: 1px solid black;
   width: 80dvw;
@@ -64,29 +67,33 @@ body {
 .table-cell {
   border: none;
 }
-/* Stats 2 chanegs*/
+/* Stats 2 changes*/
 .tablecontainer2 {
   width: 80%;
   margin: 20px auto;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: 172px;
   table-layout: fixed;
 }
-.table-row2 {
-  width: 1200px;
+.tablerow2:first-child {
+  display: flex;
   background-color: black;
 }
+.tablerow2:nth-child(2) {
+  display: flex;
+}
+.tablerow2 > .tablecell {
+  background-color: white;
+  font-size: 17px;
+  font-weight: 200;
+  width: 25%;
+}
+
 .tablerow2:first-child .tablecell {
+  width: 25%;
   font-weight: 200;
   font-size: 20px;
   background-color: white;
   padding-top: 25px;
-}
-
-.tablerow2:nth-child(2) .tablecell {
-  background-color: #ffffff;
-  font-size: 17px;
-  font-weight: 200;
 }
