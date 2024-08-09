@@ -3,7 +3,7 @@
 client_id = "9129bd9e891df38161785d849ab7c496"
 name = "scribe-app"
 handle = "scribe-app"
-application_url = "https://seq-basic-edition-sleeping.trycloudflare.com"
+application_url = "https://span-viewer-toy-interesting.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://seq-basic-edition-sleeping.trycloudflare.com/auth/callback",
-  "https://seq-basic-edition-sleeping.trycloudflare.com/auth/shopify/callback",
-  "https://seq-basic-edition-sleeping.trycloudflare.com/api/auth/callback"
+  "https://span-viewer-toy-interesting.trycloudflare.com/auth/callback",
+  "https://span-viewer-toy-interesting.trycloudflare.com/auth/shopify/callback",
+  "https://span-viewer-toy-interesting.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
